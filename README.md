@@ -24,7 +24,7 @@ The Terraform configuration includes the following resources:
 
 1. Clone this repository:
     ```sh
-    git clone <repository-url>
+    git clone git@github.com:doronfe/single_file_terraform.git
     cd <repository-directory>
     ```
 
