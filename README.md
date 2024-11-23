@@ -18,7 +18,7 @@ The Terraform configuration includes the following resources:
    - Runs the Nginx container on port 443 with a custom Nginx configuration.
 4. **Local File**: Generates an Nginx configuration file.
 5. **Output**: Outputs the IP address of the Nginx container.
-6. **Null Resource**: Updates the `/etc/hosts` file on the host with the Nginx container's IP address and hostname.
+6. **Null Resource**: Triggers when the nginx ip is available and updates the `/etc/hosts` file on the host with the Nginx container's IP address and hostname.
 
 ## Usage
 
