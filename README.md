@@ -1,4 +1,4 @@
-# Terraform Single file docker task
+# Terraform single file docker task
 
 This repository contains a single file Terraform configuration to set up a Docker environment with Nginx and a simple application.
 
