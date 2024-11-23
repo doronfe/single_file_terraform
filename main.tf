@@ -66,14 +66,6 @@ resource "docker_container" "nginx" {
     host_path      = local_file.nginx_conf.filename
     container_path = "/etc/nginx/nginx.conf"
   }
-  volumes {
-    host_path      = "/path/to/your/ssl/nginx.crt"
-    container_path = "/etc/nginx/ssl/nginx.crt"
-  }
-  volumes {
-    host_path      = "/path/to/your/ssl/nginx.key"
-    container_path = "/etc/nginx/ssl/nginx.key"
-  }
   privileged = true
   networks_advanced {
     name = docker_network.myapp_network.name
