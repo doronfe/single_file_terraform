@@ -4,8 +4,8 @@ This repository contains a single file Terraform configuration to set up a Docke
 
 ## Prerequisites
 
-- [Terraform](https://www.terraform.io/downloads.html)) installed
-- [Docker](https://docs.docker.com/get-docker/))) installed
+- [Terraform](https://www.terraform.io/downloads.html) installed
+- [Docker](https://docs.docker.com/get-docker/) installed
 
 ## Terraform Configuration
 
